@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    border-bottom: none;
+    @include respond-to ($bp-md) {
+        border-bottom:  1px solid $gray;
+    }
+}
+.hey-section__imagen {
+    width: 100%;
+    height: 80px;
+    background-image: url(/assets/img/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    @include respond-to ($bp-md) {
+        width: 100%;
+        height: 250px;
+    }
+}
+.mukami {
+    margin-left: 10px;
+    @include respond-to ($bp-md) {
+        margin-left: 20px;
+        margin-top: 12px;
+    }
+}
+.circulo {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    @include respond-to ($bp-md) {
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 45px;
+    }
+}
+.yuki {
+    margin-top: 18px;
+    color: $swamp;
+    font-family: $lato;
+    font-weight: $lato-weight-black;
+    font-size: $font-size-x-large;
+    @include respond-to ($bp-md) {
+        font-size: $font-size-large;
+        margin-top: 0;
+    }
+}
+.seguidores {
+    color: $gray;
+    font-family: $lato;
+    font-weight: $lato-weight-regular;
+    font-size: $font-size-medium;
+    @include respond-to ($bp-md) {
+        font-size: $font-size-medium
+    }
+}

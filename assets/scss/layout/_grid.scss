@@ -1,0 +1,21 @@
+.contenedor{
+    margin: 0 auto;
+    padding: 0 15px;
+    @include respond-to($bp-sm){
+    width: 390px;
+    }
+    @include respond-to($bp-md){
+    width: 720px;
+    }
+    @include respond-to($bp-lg){
+    width: 960px;
+    }
+    @include respond-to($bp-xl){
+    width: 1140px;
+    }
+}
+
+.container-fluid{
+    width: 100%;
+}
+
